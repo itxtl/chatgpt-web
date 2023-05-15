@@ -15,9 +15,9 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      avatar: 'https://raw.githubusercontent.com/Chanzhaoyu/chatgpt-web/main/src/assets/avatar.jpg',
-      name: 'ChenZhaoYu',
-      description: 'Star on <a href="https://github.com/Chanzhaoyu/chatgpt-bot" class="text-blue-500" target="_blank" >GitHub</a>',
+      avatar: 'https://github.com/itxtl/chatgpt-web/tree/main/src/assets/avatar.jpg',
+      name: 'ChatGPT体验版',
+      description: 'Star on <a href="http://fk996.xyz/" class="text-blue-500" target="_blank" >程序员的自白书</a>',
     },
   }
 }
